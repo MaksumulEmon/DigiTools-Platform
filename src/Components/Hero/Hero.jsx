@@ -3,6 +3,7 @@ import heroleftbanner from "../../assets/banner.png"
 import { FaTools } from 'react-icons/fa';
 import playicone from '../../assets/playicone.png'
 
+
 const Hero = () => {
     return (
         <div className='container mx-auto md:mt-20'>
@@ -28,16 +29,16 @@ const Hero = () => {
                     </p>
 
                     {/* Button */}
-                    <div className='flex gap-3'>
+                    <div className='flex gap-3 '>
 
                         <button className='pl-4 pr-4 pt-3 pb-3 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold'>Explore Products</button>
 
 
                         {/* <button className='btn bg-linear-to-b from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent te rounded-full  '><span><img src={playicone}></img></span> Watch Demo</button> */}
 
-                        <button className="pl-4 pr-4 border-2 border-#9514FA text-[#4F39F6] rounded-full flex items-center gap-2  transition font-bold">
+                        <button className="pl-4 pr-4 border-2 border-#9514FA text-[#4F39F6] rounded-full flex items-center gap-0.5 md:gap-2  transition font-bold">
                             <img src={playicone} alt="" />
-                            Watch Demo
+                            <span>Watch Demo</span>
                         </button>
 
                     </div>
