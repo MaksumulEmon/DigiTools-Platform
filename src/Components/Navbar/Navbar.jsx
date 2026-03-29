@@ -22,13 +22,7 @@ const Navbar = () => {
                             <li><a>Pricing</a></li>
                             <li><a>Testimonials</a></li>
                             <li><a>FAQ</a></li>
-                            {/* <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li> */}
+                          
 
                         </ul>
                     </div>
