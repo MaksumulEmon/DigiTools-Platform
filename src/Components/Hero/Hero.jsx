@@ -5,7 +5,7 @@ import playicone from '../../assets/playicone.png'
 
 const Hero = () => {
     return (
-        <div className='container mx-auto mt-20'>
+        <div className='container mx-auto md:mt-20'>
 
             <div className='flex flex-col-reverse md:flex-row m-5 gap-8'>
 
@@ -35,12 +35,10 @@ const Hero = () => {
 
                         {/* <button className='btn bg-linear-to-b from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent te rounded-full  '><span><img src={playicone}></img></span> Watch Demo</button> */}
 
-                        <div className="p-0.5 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] ">
-                            <button className="btn rounded-full bg-white text-black flex items-center gap-2">
-                                <img src={playicone} alt="" />
-                                Watch Demo
-                            </button>
-                        </div>
+                        <button className="pl-4 pr-4 border-2 border-#9514FA text-[#4F39F6] rounded-full flex items-center gap-2  transition font-bold">
+                            <img src={playicone} alt="" />
+                            Watch Demo
+                        </button>
 
                     </div>
 
