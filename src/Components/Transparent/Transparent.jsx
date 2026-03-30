@@ -3,8 +3,12 @@ import React from 'react';
 const Transparent = () => {
     return (
         <div className='container mx-auto  lg:p-20'>
-            <h1 className='text-4xl  md:text-5xl font font-extrabold text-center' >Simple, Transparent Pricing</h1>
-            <p className='text-[#627382] text-center mt-4'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+
+            <div className='m-5'>
+                <h1 className='text-4xl  md:text-5xl font font-extrabold text-center' >Simple, Transparent Pricing</h1>
+                <p className='text-[#627382] text-center mt-4'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+            </div>
+
 
             {/* Card Section */}
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 m-5'>
@@ -77,7 +81,7 @@ const Transparent = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
                                 <span className='text-white  font-medium'>Unlimited projects</span>
                             </li>
-                           
+
 
 
                         </ul>

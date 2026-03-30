@@ -18,7 +18,7 @@ const Getstarted = () => {
 
                 {/* 3 Card layer */}
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center  mt-10'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center  lg:mt-10'>
 
                     <div className='relative flex flex-col items-center justify-center p-6 rounded-2xl border-2 border-soild border-[#f1f1f1FF] bg-white m-4 space-y-2'>
 
