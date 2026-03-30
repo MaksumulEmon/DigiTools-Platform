@@ -14,15 +14,15 @@ const Transparent = () => {
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 m-5'>
 
                 {/* Card 1 */}
-                <div className="card  bg-[#f9fafc] shadow-sm border-2 border-solid border-[#f2f2f2] mt-12">
-                    <div className="card-body">
+                <div className="card rounded-2xl bg-[#f9fafc] shadow-sm border-2 border-solid border-[#f2f2f2] mt-12">
+                    <div className="card-body ">
 
                         <div className="">
                             <h2 className="text-2xl font-bold">Starter</h2>
                             <p className='text-[#627382]'>Perfect for getting started</p>
 
                         </div>
-                        <p className='text-4xl font-bold mt-4'>$0/<span>Month</span></p>
+                        <p className='text-4xl font-bold mt-4'>$29/<span>Month</span></p>
 
                         <ul className="mt-6 flex flex-col gap-2 text-xs">
                             <li>
@@ -54,15 +54,15 @@ const Transparent = () => {
 
 
                 {/* Card 2 */}
-                <div className="relative card  bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm border-2 border-solid border-[#f2f2f2] mt-12">
-                    <div className="card-body">
+                <div className="relative rounded-2xl card bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm border-2 border-solid border-[#f2f2f2] mt-12">
+                    <div className="card-body ">
                         <span className="absolute left-1/2 -top-4 -translate-x-1/2 rounded-full py-1.5 px-3 font-medium bg-[#fef3c6] text-[#bb4d00]">Most Popular</span>
                         <div className="">
                             <h2 className="text-2xl font-bold text-white">Pro</h2>
                             <p className='text-white'>Best for professionals</p>
 
                         </div>
-                        <p className='text-4xl font-bold text-white mt-4 mb-3'>$0/ <span>Month</span></p>
+                        <p className='text-4xl font-bold text-white mt-4 mb-3'>$99/ <span>Month</span></p>
 
                         <ul className=" flex flex-col gap-2 text-xs">
                             <li>
@@ -101,7 +101,7 @@ const Transparent = () => {
 
 
                 {/* Card 3 */}
-                <div className="card  bg-[#f9fafc] shadow-sm border-2 border-solid border-[#f2f2f2] mt-12">
+                <div className="card rounded-2xl bg-[#f9fafc] shadow-sm border-2 border-solid border-[#f2f2f2] mt-12">
                     <div className="card-body">
 
                         <div className="">
