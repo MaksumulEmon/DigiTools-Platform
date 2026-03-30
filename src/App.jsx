@@ -4,6 +4,7 @@ import Getstarted from './Components/Getstarted/Getstarted'
 import Hero from './Components/Hero/Hero'
 
 import Navbar from './Components/Navbar/Navbar'
+import Transparent from './Components/Transparent/Transparent'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Hero></Hero>
       <Achevment></Achevment>
       <Getstarted></Getstarted>
+      <Transparent></Transparent>
     </>
   )
 }

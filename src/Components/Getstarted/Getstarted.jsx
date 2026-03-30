@@ -12,7 +12,7 @@ const Getstarted = () => {
 
                 <div className=' text-center '>
                     <h1 className='text-[#101727] text-5xl font-extrabold'>Get Started in 3 Steps</h1>
-                    <p className='text-[#627382] mt-4'>Start using premium digital tools in minutes, not hours</p>
+                    <p className='text-[#627382] mt-4 mx-5'>Start using premium digital tools in minutes, not hours</p>
                 </div>
 
 
