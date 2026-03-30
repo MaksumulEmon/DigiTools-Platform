@@ -36,7 +36,7 @@ const Hero = () => {
 
                         {/* <button className='btn bg-linear-to-b from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent te rounded-full  '><span><img src={playicone}></img></span> Watch Demo</button> */}
 
-                        <button className="px-2 lg:px-4 border-2 border-#9514FA text-[#4F39F6] rounded-full flex items-center gap-0.5 md:gap-2  transition font-bold">
+                        <button className=" px-2 lg:px-4 border-2 border-#9514FA text-[#4F39F6] rounded-full flex items-center gap-0.5 md:gap-2  transition font-bold">
                             <img src={playicone} alt="" />
                             <span>Watch Demo</span>
                         </button>

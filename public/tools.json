@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Adobe Photoshop",
+    "description": "Professional image editing and design software.\nUsed worldwide for photo manipulation and graphics.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Advanced photo editing",
+      "Layer-based design",
+      "AI tools (Generative Fill)",
+      "High-quality export"
+    ],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
+  },
+  {
+    "id": 2,
+    "name": "Netflix",
+    "description": "Streaming platform for movies and TV shows.\nOffers original and global content.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited streaming",
+      "Original series",
+      "Multi-device support",
+      "Offline downloads"
+    ],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+  },
+  {
+    "id": 3,
+    "name": "Hoichoi",
+    "description": "Bengali entertainment streaming platform.\nOffers movies, series, and originals.",
+    "price": 5,
+    "period": "one-Time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Bengali content",
+      "Original web series",
+      "Offline viewing",
+      "Multi-device streaming"
+    ],
+    "icon": "https://bb-media.com/wp-content/uploads/2024/06/dxc6rqZHigOTItU0u3i4aWOKN9pdszX-JlZK1tRatCOyT3JJD1AOW7TZ-hzKyk1tkxI.png"
+  },
+  {
+    "id": 4,
+    "name": "ChatGPT",
+    "description": "AI assistant for writing, coding, and learning.\nHelps generate ideas and solve problems.",
+    "price": 20,
+    "period": "Monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AI chat assistant",
+      "Code generation",
+      "Content writing",
+      "Problem solving"
+    ],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+  },
+  {
+    "id": 5,
+    "name": "Midjourney",
+    "description": "AI image generator from text prompts.\nCreates stunning artistic visuals.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Text-to-image",
+      "Artistic styles",
+      "High resolution images",
+      "Creative design"
+    ],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png"
+  },
+  {
+    "id": 6,
+    "name": "Canva",
+    "description": "Easy design tool for everyone.\nCreate social media posts and presentations.",
+    "price": 0,
+    "period": "One Time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Drag and drop editor",
+      "Templates",
+      "AI design tools",
+      "Export to PDF/PNG"
+    ],
+    "icon": "https://cdn-1.webcatalog.io/catalog/canva/canva-icon-unplated.png?v=1773017011982"
+  },
+  {
+    "id": 7,
+    "name": "Jasper AI",
+    "description": "AI writing tool for marketing content.\nHelps create blogs, ads, and emails.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "SEO content",
+      "Templates",
+      "Marketing copy",
+      "Brand voice"
+    ],
+    "icon": "https://sm.pcmag.com/pcmag_me/review/j/jasper/jasper_pknd.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Figma",
+    "description": "Collaborative UI/UX design tool.\nUsed for app and web interface design.",
+    "price": 0,
+    "period": "Monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Real-time collaboration",
+      "UI design",
+      "Prototyping",
+      "Cloud-based"
+    ],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+  },
+  {
+    "id": 9,
+    "name": "CapCut",
+    "description": "Video editing app with AI features.\nPerfect for social media creators.",
+    "price": 0,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Video editing",
+      "AI captions",
+      "Effects & filters",
+      "Export HD video"
+    ],
+    "icon": "https://i.pinimg.com/736x/80/0f/31/800f31dcd38e0b6129d6490d5df7df2c.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Runway ML",
+    "description": "AI-powered video and media creation tool.\nUsed for generative video editing.",
+    "price": 15,
+    "period": "One-Time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "AI video editing",
+      "Green screen removal",
+      "Text to video",
+      "Real-time effects"
+    ],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGzWVkOGCG9B6WvxSoigJhJcJsP0lMC1Emng&s"
+  }
+]
