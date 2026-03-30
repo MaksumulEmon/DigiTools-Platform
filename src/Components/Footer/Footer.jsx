@@ -8,7 +8,7 @@ const Footer = () => {
 
 
 
-            <div className='container mx-auto pt-10 lg:pt-25  '>
+            <div className='max-w-7xl mx-auto pt-10 lg:pt-25  '>
 
 
                 {/* ! st div */}

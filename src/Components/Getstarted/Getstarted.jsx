@@ -8,7 +8,7 @@ const Getstarted = () => {
         <div className='bg-[#f9fafc] mt-20'>
 
 
-            <div className='container mx-auto lg:p-20  '>
+            <div className='max-w-7xl mx-auto lg:p-20  '>
 
                 <div className=' text-center '>
                     <h1 className='text-[#101727] text-5xl font-extrabold'>Get Started in 3 Steps</h1>

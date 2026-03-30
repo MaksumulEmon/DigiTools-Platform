@@ -6,7 +6,7 @@ import playicone from '../../assets/playicone.png'
 
 const Hero = () => {
     return (
-        <div className='container mx-auto md:mt-20'>
+        <div className='max-w-7xl mx-auto md:mt-20'>
 
             <div className='flex flex-col-reverse md:flex-row m-5 gap-8'>
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Transparent = () => {
     return (
-        <div className='container mx-auto  lg:p-20'>
+        <div className='max-w-7xl mx-auto  lg:p-20'>
 
             <div className='m-5'>
                 <h1 className='text-4xl  md:text-5xl font font-extrabold text-center' >Simple, Transparent Pricing</h1>

@@ -9,7 +9,7 @@ import Tools from './Components/Tools/Tools'
 import Transparent from './Components/Transparent/Transparent'
 
 const getTools = async () => {
-  const res = await fetch('/public/tools.json')
+  const res = await fetch('/tools.json')
   return res.json();
 }
 

@@ -3,9 +3,9 @@ import { FcCheckmark } from 'react-icons/fc';
 
 const Tools = ({ toolsPromise }) => {
     const tools = use(toolsPromise);
-    console.log(tools);
+    // console.log(tools);
     return (
-        <div className='container mx-auto'>
+        <div className='max-w-7xl mx-auto'>
 
 
             <div className='text-center space-y-3 m-5 lg:pt-20 lg:pb-8'>
@@ -16,7 +16,8 @@ const Tools = ({ toolsPromise }) => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-5'>
 
 
-                {tools.map(tool => <div className='rounded-2xl border-2 border-solid space-y-4 border-[#f2f2f2] p-6'>
+                {tools.map(tool => <div key={tool.id} className=' rounded-2xl border-2 border-solid space-y-4 border-[#f2f2f2] p-6'>
+
 
                     <div className='flex justify-between'>
 
