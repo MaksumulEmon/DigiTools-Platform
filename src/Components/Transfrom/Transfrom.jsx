@@ -2,7 +2,7 @@ import React from 'react';
 
 const Transfrom = () => {
     return (
-        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-25'>
+        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-12 lg:p-25'>
             <div className='max-w-7xl mx-auto'>
 
                 <div className='flex flex-col justify-center items-center space-y-4'>
