@@ -10,8 +10,8 @@ const Transfrom = () => {
                     <p className='text-white/60'>Join thousands of professionals who are already using Digitools to work smarter.Start your free trial today.</p>
 
                     <div className='flex gap-2'>
-                        <button className='bg-white px-4 py-2 rounded-full text-[#4F39F6] font-semibold'>Explore Products</button>
-                        <button className='border-2 border-solid border-white rounded-full px-4 py-2 text-white '>View Pricing</button>
+                        <button className='button bg-white px-4 py-2 rounded-full text-[#4F39F6] font-semibold'>Explore Products</button>
+                        <button className='button border-2 border-solid border-white rounded-full px-4 py-2 text-white '>View Pricing</button>
 
                     </div>
                     <p className='text-white/60'>14-day free trial • No credit card required • Cancel anytime</p>

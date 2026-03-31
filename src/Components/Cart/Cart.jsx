@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiShoppingCart } from 'react-icons/fi';
 import { PiEmptyBold } from 'react-icons/pi';
 import { toast } from 'react-toastify';
 
@@ -27,15 +28,15 @@ const Cart = ({ carts, setCarts }) => {
 
             <div className='border-3 border-solid border-[#f2f2f2]  p-10 rounded-2xl '>
 
-                <h1 className='font-bold text-2xl'>Your Cart</h1>
+                <h1 className='font-bold text-2xl mb-5'>Your Carts</h1>
 
                 {
                     carts.length === 0 ? (
                         <div className=' flex-col items-center justify-center p-4'>
                             <div className='flex  justify-center items-center'>
-                                <PiEmptyBold className='h-20 w-20'></PiEmptyBold>
+                                <FiShoppingCart className='h-20 w-20'></FiShoppingCart>
                             </div>
-                            <h3 className='text-center text-3xl font-bold text-red-500'>Your Cart is Empty !!</h3>
+                            <h3 className='text-center text-3xl font-bold text-[#101727] pt-2'>Your Cart is Empty !!</h3>
                         </div>
                     ) : (
 
@@ -61,7 +62,7 @@ const Cart = ({ carts, setCarts }) => {
                                 <h4 className='font-semibold text-2xl'>{totalPrice} $</h4>
                             </div>
 
-                            <button onClick={handlepay} className='bg-linear-to-b from-[#4F39F6] to-[#9514FA] text-white text-lg rounded py-3  '>Proceed to Checkout</button>
+                            <button onClick={handlepay} className='button bg-linear-to-b from-[#4F39F6] to-[#9514FA] text-white text-lg rounded py-3  '>Proceed to Checkout</button>
                         </div>
                     )}
 

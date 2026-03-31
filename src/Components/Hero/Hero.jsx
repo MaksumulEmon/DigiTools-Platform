@@ -31,12 +31,10 @@ const Hero = () => {
                     {/* Button */}
                     <div className='flex gap-3 '>
 
-                        <button className='pl-4 pr-4 pt-3 pb-3 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold'>Explore Products</button>
+                        <button className="button pl-4 pr-4 pt-3 pb-3 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold" >Explore Products</button>
 
 
-                        {/* <button className='btn bg-linear-to-b from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent te rounded-full  '><span><img src={playicone}></img></span> Watch Demo</button> */}
-
-                        <button className=" px-2 lg:px-4 border-2 border-#9514FA text-[#4F39F6] rounded-full flex items-center gap-0.5 md:gap-2  transition font-bold">
+                        <button className="button px-2 lg:px-4 border-2 border-#9514FA text-[#4F39F6] rounded-full flex items-center gap-0.5 md:gap-2  transition font-bold">
                             <img src={playicone} alt="" />
                             <span>Watch Demo</span>
                         </button>

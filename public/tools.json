@@ -1,162 +1,147 @@
 [
   {
     "id": 1,
-    "name": "Adobe Photoshop",
-    "description": "Professional image editing and design software.\nUsed worldwide for photo manipulation and graphics.",
-    "price": 50,
-    "period": "monthly",
-    "tag": "best seller",
-    "tagType": "best seller",
-    "features": [
-      "Advanced photo editing",
-      "Layer-based design",
-      "AI tools (Generative Fill)",
-      "High-quality export"
-    ],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
-  },
-  {
-    "id": 2,
-    "name": "Netflix",
-    "description": "Streaming platform for movies and TV shows.\nOffers original and global content.",
-    "price": 899,
-    "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Unlimited streaming",
-      "Original series",
-      "Multi-device support",
-      "Offline downloads"
-    ],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
-  },
-  {
-    "id": 3,
-    "name": "Hoichoi",
-    "description": "Bengali entertainment streaming platform.\nOffers movies, series, and originals.",
-    "price": 500,
-    "period": "one-Time",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Bengali content",
-      "Original web series",
-      "Offline viewing",
-      "Multi-device streaming"
-    ],
-    "icon": "https://bb-media.com/wp-content/uploads/2024/06/dxc6rqZHigOTItU0u3i4aWOKN9pdszX-JlZK1tRatCOyT3JJD1AOW7TZ-hzKyk1tkxI.png"
-  },
-  {
-    "id": 4,
     "name": "ChatGPT",
-    "description": "AI assistant for writing, coding, and learning.\nHelps generate ideas and solve problems.",
-    "price": 220,
-    "period": "Monthly",
+    "description": "Advanced conversational AI for writing and coding.\nHelps solve problems and generate ideas instantly.",
+    "price": 299,
+    "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
     "features": [
-      "AI chat assistant",
+      "Natural language understanding",
       "Code generation",
       "Content writing",
-      "Problem solving"
+      "Multi-purpose assistant"
     ],
     "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
   },
   {
-    "id": 5,
+    "id": 2,
     "name": "Midjourney",
-    "description": "AI image generator from text prompts.\nCreates stunning artistic visuals.",
-    "price": 550,
+    "description": "AI image generation tool for creative visuals.\nTurns text prompts into high-quality artwork.",
+    "price": 899,
     "period": "monthly",
     "tag": "best seller",
     "tagType": "best seller",
     "features": [
-      "Text-to-image",
-      "Artistic styles",
-      "High resolution images",
-      "Creative design"
+      "Text-to-image generation",
+      "High-resolution outputs",
+      "Creative styles",
+      "Discord-based access"
     ],
     "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png"
   },
   {
-    "id": 6,
-    "name": "Canva",
-    "description": "Easy design tool for everyone.\nCreate social media posts and presentations.",
-    "price": 323,
-    "period": "One Time",
+    "id": 3,
+    "name": "Grammarly",
+    "description": "AI writing assistant for grammar and clarity.\nImproves tone and correctness of writing.",
+    "price": 120,
+    "period": "on-time",
     "tag": "popular",
     "tagType": "popular",
     "features": [
-      "Drag and drop editor",
-      "Templates",
-      "AI design tools",
-      "Export to PDF/PNG"
+      "Grammar checking",
+      "Tone detection",
+      "Plagiarism checker",
+      "Writing suggestions"
+    ],
+    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxiq8rwXckZAP_inAe6ki68mFKhxAIYYzc96KJMP0JY4KC899jXBwKagCNpSWPkAxVBj5ADudR0.gDOfn5L.Bpkg-&format=source"
+  },
+  {
+    "id": 4,
+    "name": "Notion AI",
+    "description": "Smart AI for productivity and note-taking.\nSummarizes and generates content quickly.",
+    "price": 699,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Content summarization",
+      "Task management",
+      "AI writing",
+      "Workspace integration"
+    ],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Runway ML",
+    "description": "AI tool for video editing and media creation.\nEnables real-time visual effects and editing.",
+    "price": 155,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI video editing",
+      "Background removal",
+      "Real-time effects",
+      "Generative video"
+    ],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGzWVkOGCG9B6WvxSoigJhJcJsP0lMC1Emng&s"
+  },
+  {
+    "id": 6,
+    "name": "Canva AI",
+    "description": "AI-powered design platform for everyone.\nCreate graphics, presentations, and social media posts.",
+    "price": 99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Drag-and-drop editor",
+      "AI image generator",
+      "Templates library",
+      "Export to multiple formats"
     ],
     "icon": "https://cdn-1.webcatalog.io/catalog/canva/canva-icon-unplated.png?v=1773017011982"
   },
   {
     "id": 7,
     "name": "Jasper AI",
-    "description": "AI writing tool for marketing content.\nHelps create blogs, ads, and emails.",
-    "price": 299,
-    "period": "monthly",
-    "tag": "new",
-    "tagType": "new",
-    "features": [
-      "SEO content",
-      "Templates",
-      "Marketing copy",
-      "Brand voice"
-    ],
-    "icon": "https://sm.pcmag.com/pcmag_me/review/j/jasper/jasper_pknd.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Figma",
-    "description": "Collaborative UI/UX design tool.\nUsed for app and web interface design.",
-    "price": 199,
-    "period": "Monthly",
+    "description": "AI tool for marketing and content writing.\nGenerates blogs, ads, and copy efficiently.",
+    "price": 999,
+    "period": "on-time",
     "tag": "best seller",
     "tagType": "best seller",
     "features": [
-      "Real-time collaboration",
-      "UI design",
-      "Prototyping",
-      "Cloud-based"
+      "Marketing copy generation",
+      "SEO optimization",
+      "Templates",
+      "Brand voice support"
     ],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwqnb0x3FpYaO48tVixhJtKl0bezr3HHprCg&s"
   },
   {
-    "id": 9,
-    "name": "CapCut",
-    "description": "Video editing app with AI features.\nPerfect for social media creators.",
-    "price": 29,
+    "id": 8,
+    "name": "Copy.ai",
+    "description": "AI content generator for business needs.\nCreates product descriptions and social posts.",
+    "price": 99,
     "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Video editing",
-      "AI captions",
-      "Effects & filters",
-      "Export HD video"
-    ],
-    "icon": "https://i.pinimg.com/736x/80/0f/31/800f31dcd38e0b6129d6490d5df7df2c.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Runway ML",
-    "description": "AI-powered video and media creation tool.\nUsed for generative video editing.",
-    "price": 149,
-    "period": "One-Time",
     "tag": "new",
     "tagType": "new",
     "features": [
-      "AI video editing",
-      "Green screen removal",
-      "Text to video",
-      "Real-time effects"
+      "Copywriting tools",
+      "Product descriptions",
+      "Email generation",
+      "Social media content"
     ],
-    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGzWVkOGCG9B6WvxSoigJhJcJsP0lMC1Emng&s"
+    "icon": "https://zorgle.co.uk/wp-content/uploads/2024/11/Copy-ai-logo.png"
+  },
+  {
+    "id": 9,
+    "name": "Writesonic",
+    "description": "AI-powered content writing tool.\nGenerates blogs, ads, emails, and product descriptions quickly.",
+    "price": 499,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AI blog writer",
+      "Marketing copy",
+      "Email generation",
+      "Product description templates"
+    ],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH9YNqiZro5_-v14GxLjdREPRAqqUkmJZ7LQ&s"
   }
+
 ]

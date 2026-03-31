@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 const Navbar = ({carts}) => {
     return (
 
-        <div className='border-b border-[#f2f2f2] border-solid'>
+        <div className='border-b border-[#f2f2f2] border-solid sticky top-0 z-50 bg-base-100 '>
 
 
             <div className="navbar bg-base-100  max-w-7xl mx-auto ">
@@ -55,15 +55,7 @@ const Navbar = ({carts}) => {
                         <li><a className='font-medium ml-3'>Login</a></li>
                     </div>
 
-
-                    {/* <div className='relative'>
-                        <HiOutlineShoppingCart className='h-6 w-6' />
-                        <p className='absolute -top-4 -left-4 bg-red-500 px-2 text-white rounded-full'>{carts.length}</p>
-                    </div> */}
-
-
-
-                    <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
+                    <a className="button btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
 
                 </div>
             </div>

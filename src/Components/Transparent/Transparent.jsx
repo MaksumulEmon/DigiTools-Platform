@@ -45,7 +45,7 @@ const Transparent = () => {
 
                         </ul>
                         <div className="mt-6">
-                            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white w-full py-3 px-4 rounded-full">Get Started Free</button>
+                            <button className="button bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white w-full py-3 px-4 rounded-full">Get Started Free</button>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const Transparent = () => {
 
                         </ul>
                         <div className="mt-6">
-                            <button className="font-bold w-full py-3 px-4 rounded-full bg-white">
+                            <button className="button font-bold w-full py-3 px-4 rounded-full bg-white">
                                 <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Get Started Free</span>
 
                             </button>
@@ -132,7 +132,7 @@ const Transparent = () => {
 
                         </ul>
                         <div className="mt-6">
-                            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white w-full py-3 px-4 rounded-full">Get Started Free</button>
+                            <button className="button bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white w-full py-3 px-4 rounded-full">Get Started Free</button>
                         </div>
                     </div>
                 </div>
