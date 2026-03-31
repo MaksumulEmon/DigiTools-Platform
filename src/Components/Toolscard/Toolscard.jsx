@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FcCheckmark } from 'react-icons/fc';
+import { toast } from 'react-toastify';
 
 const Toolscard = ({ tool, carts, setCarts }) => {
     const [isBuy, setBuy] = useState(false);
@@ -8,7 +9,14 @@ const Toolscard = ({ tool, carts, setCarts }) => {
 
     const handleBuy = () => {
         setBuy(true);
+        const isFound = carts.find(item => item.id === tool.id)
+        //  console.log(isFound);
+        if(isFound) {
+            toast.error(`${tool.name} allready in cart !!`)
+            return
+        }
         setCarts([...carts, tool])
+        toast.success(` ${tool.name} add to cart sucessfull`)
 
     }
     return (
