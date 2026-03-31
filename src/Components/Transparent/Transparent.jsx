@@ -11,11 +11,11 @@ const Transparent = () => {
 
 
             {/* Card Section */}
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 m-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 m-5 '>
 
                 {/* Card 1 */}
-                <div className="card rounded-2xl bg-[#f9fafc] shadow-sm border-2 border-solid border-[#f2f2f2] mt-12">
-                    <div className="card-body ">
+                <div className="card  rounded-2xl bg-[#f9fafc] shadow-sm border-2 border-solid border-[#f2f2f2] mt-12">
+                    <div className="card-body  ">
 
                         <div className="">
                             <h2 className="text-2xl font-bold">Starter</h2>

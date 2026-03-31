@@ -20,7 +20,7 @@ const Toolscard = ({ tool, carts, setCarts }) => {
 
     }
     return (
-        <div className='space-y-4'>
+        <div className='space-y-4 '>
             <div className='flex justify-between'>
                 <img src={tool.icon} alt="" className='h-10 w-10' />
 

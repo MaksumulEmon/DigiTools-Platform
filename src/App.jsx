@@ -10,7 +10,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Tools from './Components/Tools/Tools'
 import Transparent from './Components/Transparent/Transparent'
 import Toolscard from './Components/Toolscard/Toolscard'
-import {  useState } from 'react'
+import { useState } from 'react'
 
 const getTools = async () => {
   const res = await fetch('/tools.json')
@@ -37,7 +37,7 @@ function App() {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40 font-bold text-lg"
+          className={`tab rounded-full w-40 font-bold text-lg border-none ${activeTab === "tools" && "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"}`}
           aria-label="Tools"
           onClick={() => setActiveTab("tools")}
           defaultChecked
@@ -45,12 +45,11 @@ function App() {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40 font-bold text-lg"
+          className={`tab rounded-full w-40 font-bold text-lg ${activeTab === "cart" && "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"}`}
           aria-label={`Cart (${carts.length})`}
           onClick={() => setActiveTab("cart")}
         />
       </div>
-
 
 
 
@@ -63,6 +62,8 @@ function App() {
       <Getstarted></Getstarted>
       <Transparent></Transparent>
       <Footer></Footer>
+
+
     </>
   )
 }
