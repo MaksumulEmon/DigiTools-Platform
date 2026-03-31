@@ -68,7 +68,7 @@ const Footer = () => {
                 <hr className=' border-solid border-[#e5e7eb]/80 mt-10' />
 
                 {/* Seconf div */}
-                <div className='text-[#fafafa]/80 flex flex-col items-center gap-3 lg:justify-between p-7'>
+                <div className='flex-col lg:flex items-center gap-3 lg:justify-between p-7 text-[#fafafa]/80'>
                     <small>© 2026 Digitools. All rights reserved.</small>
 
                     <div className='flex  gap-3'>

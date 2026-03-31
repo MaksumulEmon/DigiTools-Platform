@@ -11,6 +11,7 @@ import Tools from './Components/Tools/Tools'
 import Transparent from './Components/Transparent/Transparent'
 import Toolscard from './Components/Toolscard/Toolscard'
 import { useState } from 'react'
+import Transfrom from './Components/Transfrom/Transfrom'
 
 const getTools = async () => {
   const res = await fetch('/tools.json')
@@ -61,6 +62,7 @@ function App() {
 
       <Getstarted></Getstarted>
       <Transparent></Transparent>
+      <Transfrom></Transfrom>
       <Footer></Footer>
 
 
