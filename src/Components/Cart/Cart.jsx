@@ -1,4 +1,5 @@
 import React from 'react';
+import { PiEmptyBold } from 'react-icons/pi';
 
 const Cart = ({ carts, setCarts }) => {
 
@@ -26,7 +27,9 @@ const Cart = ({ carts, setCarts }) => {
             {
                 carts.length === 0 ? (
                     <div className=' flex-col items-center justify-center p-4'>
-                        <img src="#" alt="" />
+                       <div className='flex  justify-center items-center'>
+                         <PiEmptyBold className='h-20 w-20'></PiEmptyBold>
+                       </div>
                         <h3 className='text-center text-3xl font-bold'>Your Cart is Empty !!</h3>
                     </div>
                 ) : (
